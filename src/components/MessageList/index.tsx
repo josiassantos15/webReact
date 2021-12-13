@@ -1,6 +1,6 @@
 import { api } from '../../services/api';
 import styles from './styles.module.scss';
-import ios, { io } from 'socket.io-client';
+import { io } from 'socket.io-client';
 import imagemLogo from '../../assets/logo.svg';
 import { useEffect, useState } from 'react';
 
